@@ -1,0 +1,12 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "type": "blob",
+      "direction": "out",
+      "name": "loggerBlob",
+      "path": "twitterfunctionlogs/{date}.csv",
+      "connection": "STORAGE"
+    }
+  ]
+}
